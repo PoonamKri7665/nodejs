@@ -33,6 +33,7 @@ docker build -t npm .
 docker ps
 docker images
 docker run -it  -p 3000:3030 npm 
+```
 docker tag npm jaya91/npm
 docker push  jaya91/npm
 docker login
